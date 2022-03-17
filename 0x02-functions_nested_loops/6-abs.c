@@ -2,10 +2,10 @@
 
 /**
  * _abs - Computes absolute value of integer
- *
- * Return: Always 0 (Success)
+ * @n: the int to check
+ * Return: The absolute value of int n
  */
-int abs(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
@@ -13,6 +13,6 @@ int abs(int n)
 	}
 	else
 	{
-	 return (-n);
+		return (-n);
 	}
 }
