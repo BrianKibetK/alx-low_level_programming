@@ -9,13 +9,13 @@
 void print_alphabet_x10(void)
 {
 	int i = 0;
-	char alph;
+	char c;
 
 	while (i < 10)
 	{
-		for (alph = 'a'; alph <= 'z'; alph++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(alph);
+			_putchar(c);
 		}
 		i++;
 		 _putchar('\n');
