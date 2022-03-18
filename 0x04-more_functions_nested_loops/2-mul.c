@@ -2,7 +2,7 @@
 
 /**
  * mul - Function multiplying two integers
- * @a: First integer 
+ * @a: First integer
  * @b: second integer
  * Return: 0 if success
  */
