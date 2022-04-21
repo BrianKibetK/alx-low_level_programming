@@ -10,6 +10,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
+	unsigned int i;
 	int sum = 0;
 
 	/*Declare pointer to the argument list*/
@@ -18,7 +19,7 @@ int sum_them_all(const unsigned int n, ...)
 	/*Initialize the argument to the list pointer*/
 	va_start(ptr, n);
 
-	for (unsigned int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 
 		/*access current variable and pointing to the next*/
 		sum += va_arg(ptr, int);
