@@ -44,3 +44,18 @@ Function that inserts a new node at a given position
 
 Function that deletes the node at index of a linked list
 
+12. File 100-reverse_listint.c
+
+Function that reverses a linked list. It should return a pointer to the first node of the reversed list. 
+
+13. File 101-print_listint_safe.c
+
+Function that prints a linked list and returns the number of nodes in the list. 
+
+14. File 102-free_listint_safe.c
+
+Function that frees a list. It should go through the list only once and sets the head to NULL
+
+15. File 103-find_loop.c
+
+Function that finds the loop in a linked list.
