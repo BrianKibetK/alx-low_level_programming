@@ -6,9 +6,10 @@
  * head of the listint_t list
  * Description: Sets the head to NULL
  */
+
 void free_listint2(listint_t **head)
 {
-	lisint_t *tmp;
+	listint_t *tmp;
 
 	if (head == NULL)
 		return;
@@ -19,5 +20,6 @@ void free_listint2(listint_t **head)
 		free(*head);
 		*head = tmp;
 	}
+
 	head = NULL;
 }
